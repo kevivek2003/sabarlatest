@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "TC-1.Verify user login with valid credentials",
+        "description": "",
+        "id": "adactin-hotel-application;tc-1.verify-user-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1997347136,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user Should launch the hotel reservation application",
+            "match": {
+              "location": "StepDefinition.user_Should_launch_the_hotel_reservation_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 380780198,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User should enter valid username  \"vivekkumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "vivekkumar",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_valid_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 325859147,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should enter valid password \"goatcr7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "goatcr7",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefinition.user_should_enter_valid_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500576880,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click the login button",
+            "match": {
+              "location": "StepDefinition.user_click_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@tc_1"
+          }
+        ]
+      }
+    ],
+    "name": "AdactIn Hotel Application",
+    "description": "",
+    "id": "adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "adactin.feature"
+  }
+]
