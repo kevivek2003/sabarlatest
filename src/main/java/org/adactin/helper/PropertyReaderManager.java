@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class PropertyReaderManager {
 
-	 static PropertyReaderManager prm = new PropertyReaderManager();
+	static PropertyReaderManager prm = new PropertyReaderManager();
 	private PropertyReaderManager() {
 
 	}

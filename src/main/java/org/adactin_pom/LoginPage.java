@@ -38,8 +38,7 @@ private WebElement password_input;
 @FindBy(xpath="//input[@id='login']")
 private WebElement login_click;
 
-public LoginPage(WebDriver ldriver)
-{
+public LoginPage(WebDriver ldriver){
 this.driver=ldriver;
 PageFactory.initElements(driver, this);
 }
