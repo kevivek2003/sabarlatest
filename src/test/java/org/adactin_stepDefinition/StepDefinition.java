@@ -33,6 +33,7 @@ public class StepDefinition extends BaseClass {
 	public void user_Should_launch_the_hotel_reservation_application() throws Throwable {
 		//driver=getBrowser("chrome");
 		driver.get(PropertyReaderManager.getInstance().getPr().getUrl());
+		//hi new add
 	}
 
 	
